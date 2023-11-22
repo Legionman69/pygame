@@ -1,1 +1,13 @@
-
+name: pygame_v1
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python >= 3.8.10
+  - pip
+  - pypy
+  - numpy>=1.6.2
+  - pip:
+    - pysdl2-dll
+    - pygame
